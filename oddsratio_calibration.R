@@ -3,9 +3,8 @@ devtools::install_github("ncsu-landscape-dynamics/rpops", ref = "feature/oddsrat
 library(PoPS)
 library(raster)
 
-
-infected_years_file = "H:/Team Drives/APHIS  Projects/Papers/oddsratio vs disagreements/data/250/200/infected_years_rr0.4_sd21_extent200_single.tif"
-num_iterations = 100
+infected_years_file = "H:/Team Drives/APHIS  Projects/Papers/oddsratio vs disagreements/data/250/200/infected_years_rr0.7_sd21_extent200_single.tif"
+num_iterations = 10000
 start_reproductive_rate = 1.0
 start_short_distance_scale = 40
 sd_reproductive_rate = 0.2
